@@ -1,3 +1,16 @@
+# Password-Generator
+
+Random Password Generator is built using React.js.<br>
+It allows you to generate random password with length of 4 to 12 and also copy it to the clipboard.<br>
+Click here to see the [Demo](https://naimish2002.github.io/Password-Generator/) 👈🏻👈🏻.
+
+## Screenshot
+<br>
+<p align="center">
+  <img margin-top="1rem" width="500" height="500" src="https://user-images.githubusercontent.com/57554170/204093839-400cb9e4-b5cf-44ac-b6be-1e50351bbf7c.png">
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
