@@ -1,38 +1,83 @@
-.App {
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.generator{
+  width: 21.875rem;
+  padding: 1.875rem 1.25rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 1.25rem 5.625rem rgb(58 46 68 / 5%);
+  background: #fff;
+}
+
+.generatorTitle, .password{
   text-align: center;
+  margin: 0 0 1.25rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.generatorFormControl{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0.625rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.generatorFormControl input{
+  accent-color: #f5f5f5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.passwordLength{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 1.875rem 0;
+  padding: 0.938rem;
+  border-radius: 5px;
+  background-color: #f3f4ff;
 }
 
-.App-link {
-  color: #61dafb;
+.passwordLengthCounter button{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  margin: 0 0.625rem;
+  color: #fff;
+  background-color: #8224e3;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.passwordLengthCounter button:hover{
+  background-color: #6a1bca;
+}
+
+.passwordLengthCounter span{
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
+}
+
+.generatorFormAction{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn{
+  padding: 0.9rem 1.8rem;
+  border: 1px solid #8224e3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generateBtn{
+  background: #6a1bca;
+  color: #fff;
 }
