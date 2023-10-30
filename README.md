@@ -4,6 +4,11 @@
 
 A simple and versatile Random Password Generator that allows you to create strong and secure passwords for your online accounts. This tool can generate passwords ranging from 4 to 12 characters in length, using a combination of lowercase and uppercase letters, special characters, and numbers. Additionally, it provides a convenient "Copy to Clipboard" feature to make it easy for you to use the generated passwords.
 
+## Password Generator Screenshot
+<p align="center">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/57554170/204093839-400cb9e4-b5cf-44ac-b6be-1e50351bbf7c.png">
+</p>
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
