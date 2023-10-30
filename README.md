@@ -1,83 +1,49 @@
-# Password-Generator
+# Password Generator
 
-Random Password Generator is built using React.js.<br>
-It allows you to generate random password with length of 4 to 12 and also copy it to the clipboard.<br>
-Click here to see the [Demo](https://naimish2002.github.io/Password-Generator/) 👈🏻👈🏻.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Demo-brightgreen)](https://naimish2002.github.io/Password-Generator/)
 
-## Screenshot
-<br>
-<p align="center">
-  <img margin-top="1rem" width="500" height="500" src="https://user-images.githubusercontent.com/57554170/204093839-400cb9e4-b5cf-44ac-b6be-1e50351bbf7c.png">
-</p>
+A simple and versatile Random Password Generator that allows you to create strong and secure passwords for your online accounts. This tool can generate passwords ranging from 4 to 12 characters in length, using a combination of lowercase and uppercase letters, special characters, and numbers. Additionally, it provides a convenient "Copy to Clipboard" feature to make it easy for you to use the generated passwords.
 
+## Table of Contents
+- [Features](#features)
+- [Demo](#demo)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-# Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Generate random passwords with a customizable length (4 to 12 characters).
+- Include lowercase and uppercase letters, special characters, and numbers for enhanced security.
+- Convenient "Copy to Clipboard" button for quick password copying.
+- Easy-to-use and user-friendly interface.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Check out the live demo of the Password Generator [here](https://naimish2002.github.io/Password-Generator/). Feel free to experiment with generating passwords and see how it works in action.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Visit the [demo page](https://naimish2002.github.io/Password-Generator/).
+2. Choose the desired password length using the dropdown menu.
+3. Customize the character sets to include in your password by checking/unchecking the corresponding options.
+4. Click the "Generate Password" button to create a random password.
+5. The generated password will be displayed on the screen.
+6. Click the "Copy to Clipboard" button to copy the password to your clipboard for easy use.
+7. You can now paste the password wherever you need it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+We welcome contributions from the community to make this Password Generator even better. If you'd like to contribute, please follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork the repository.
+2. Clone the forked repository to your local machine.
+3. Create a new branch for your feature or bug fix: `git checkout -b feature/new-feature` or `git checkout -b bug/fix-bug`.
+4. Make your changes and commit them with a descriptive message.
+5. Push your changes to your fork on GitHub.
+6. Create a pull request to the original repository.
 
-### `npm run build`
+I appreciate your contributions!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed by Naimish Sojitra (https://github.com/naimish2002). Enjoy generating secure passwords!
